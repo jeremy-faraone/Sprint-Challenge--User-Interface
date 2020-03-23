@@ -75,7 +75,7 @@ p {
 .top {
     width: 800px;
     margin: 0 auto;
-}
+}   
 .contain {
     width: 800px;
     display: flex;
@@ -83,23 +83,18 @@ p {
     margin-top: 20px;
     margin-bottom: 5%;
 }
+.buttons a:hover {
+    color: red;
+}
 .buttons a {
     margin-left:10%;
     margin-right: 25%;
     color: black;
 	text-decoration: none;
 }
-.buttons a:hover {
-    color: red;
-}
 .buttons {
     display: flex;
     align-items: center;
-}
-
-.container {
-    width: 800px;
-    margin: 0 auto;
 }
 
 .mid-picture {
@@ -112,60 +107,55 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 800px;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
-.middle-content {
-    margin-bottom: 20px;
+.mid-page {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 3%;
+    padding-bottom: 5%;
     border-bottom: 1px dashed black;
 }
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.text-container1{
+    margin-left: 2%;
+}
+.text-container1 img {
+    margin-bottom: 4%;
+}
+.text-container2 {
+   margin-left: 2%;
+}
+.text-container2 img {
+    margin-bottom: 4%;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.click {
+    border: 1px solid black;
+    padding: 3%;
+    border-radius: 10px;
 }
-
-
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: teal;
-    margin: 20px 2.5%;
+.click:hover {
+    background: red;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.text-contatiner3 .click a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 3%;
+    border-radius: 10px;
 }
 
 footer {
-    width: 100%;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 3%;
     background: black;
 }
 
@@ -182,7 +172,6 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-
 footer nav a:hover {
     color: red;
 }
